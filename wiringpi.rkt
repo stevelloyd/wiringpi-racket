@@ -9,6 +9,8 @@
 		    (ffi-lib "/usr/local/lib/libwiringPi.so.2.0"))
 
 ;; Foreign function interface to WiringPi (http://wiringpi.com)
+;; why the camelCase function names? - easier to reference for those
+;; familiar with wiringPi
 
 (define-wiringpi wiringPiI2CSetup (_fun _int -> _int))
 (define-wiringpi wiringPiI2CRead (_fun _int -> _int))
