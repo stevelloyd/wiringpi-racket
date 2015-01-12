@@ -37,6 +37,13 @@
 (define-wiringpi pwmSetRange (_fun _uint -> _void))
 (define-wiringpi pwmSetClock (_fun _int -> _void))
 
+;; Software PWM
+
+(define-wiringpi softPwmCreate (_fun _int _int _int -> _int))
+(define-wiringpi softPwmWrite  (_fun _int _int -> _void))
+(define-wiringpi softPwmStop   (_fun _int -> _void))
+
+
 (define WPI_MODE_PINS         0)
 (define WPI_MODE_GPIO         1)
 (define WPI_MODE_GPIO_SYS     2)
