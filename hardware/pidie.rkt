@@ -1,5 +1,5 @@
 #lang racket/base
-(require "../wiringpi.rkt")
+(require "../wiringpi/wiringpi.rkt")
 
 ;; =========================================================================
 ;; A simple example of the use of the wiringpi-racket functions
