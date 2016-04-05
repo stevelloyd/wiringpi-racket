@@ -13,4 +13,4 @@ The function names follow the camelCase names used in the C library, rather than
 ## Examples
 
 An inital example is provided in the examples directory; to drive the 4tronix PiDie GPIO experiments board 
-[‎www.4tronix.co.uk/pidie/](http://www.4tronix.co.uk/pidie/). More to follow; there's a brief post about it [here](http://stevelloyd.net/notes/2014/07/11/a-racket-interface-to-wiringpi/)
+[‎www.4tronix.co.uk/pidie/](http://www.4tronix.co.uk/pidie/). More to follow; there's a brief post about it [here](http://somenotes.stevelloyd.net/notes/2014/07/11/a-racket-interface-to-wiringpi/)
