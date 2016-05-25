@@ -12,6 +12,7 @@
 ;; why the camelCase function names? - easier to reference for those
 ;; familiar with wiringPi
 
+;; I2C functions
 (define-wiringpi wiringPiI2CSetup (_fun _int -> _int))
 (define-wiringpi wiringPiI2CRead (_fun _int -> _int))
 (define-wiringpi wiringPiI2CWrite (_fun _int _int -> _int))
@@ -19,6 +20,12 @@
 (define-wiringpi wiringPiI2CWriteReg16 (_fun _int _int _int -> _int))
 (define-wiringpi wiringPiI2CReadReg8 (_fun _int _int -> _int))
 (define-wiringpi wiringPiI2CReadReg16 (_fun _int _int -> _int))
+
+;; SPI functions
+(define-wiringpi wiringPiSPISetup (_fun _int _int -> _int))
+(define-wiringpi wiringPiSPISetupMode (_fun _int _int _int -> _int))
+(define-wiringpi wiringPiSPIDataRW (_fun _int _pointer _int -> _int))
+
 (define-wiringpi wiringPiSetup (_fun -> _int))
 (define-wiringpi wiringPiSetupGpio (_fun -> _int))
 (define-wiringpi wiringPiSetupPhys (_fun -> _int))
