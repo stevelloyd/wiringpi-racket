@@ -6,7 +6,7 @@
 	 ffi/unsafe/define)
 
 (define-ffi-definer define-wiringpi 
-		    (ffi-lib "/usr/local/lib/libwiringPi.so"))
+		    (ffi-lib "/usr/lib/libwiringPi.so"))
 
 ;; Foreign function interface to WiringPi (http://wiringpi.com)
 ;; why the camelCase function names? - easier to reference for those
