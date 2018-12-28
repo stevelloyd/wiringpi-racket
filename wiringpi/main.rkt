@@ -30,7 +30,7 @@
   ;; Tests to be run with raco test
   )
 
-(module+ main
+
   ;; Main entry point, executed when run with the `racket` executable or DrRacket.
   (provide (all-defined-out))
 
@@ -125,4 +125,4 @@
   (define	PI_MODEL_A	0)
   (define	PI_MODEL_B	1)
   (define	PI_MODEL_CM	2)
-  )
+
